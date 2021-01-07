@@ -2,7 +2,7 @@
 
 A preprocessor for the *MARS MIPS Emulator* syntax.
 Primarily developed to be able to run MARS sources in other emulators
-that do not support the MARS preprocessor directives, like QtSPIM.
+that do not support the MARS preprocessor directives, like SPIM.
 
 # Usage
 
@@ -20,4 +20,4 @@ Optional arguments:
 # Limitations
 
 No input validation or errors reporting at the moment.
-No comprehensive testing was done.
+No comprehensive testing was done either.
