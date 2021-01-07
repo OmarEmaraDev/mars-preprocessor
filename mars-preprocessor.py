@@ -37,7 +37,7 @@ class Macro:
         self.replacePattern = self.getReplacePattern()
 
     def getReplacePattern(self):
-        return re.compile(r"\b({})\b".format("|".join(self.parameters)))
+        return re.compile(r"({})\b".format("|".join(self.parameters)))
 
     def evaluate(self, arguments):
         if len(arguments) == 0: return self.lines
